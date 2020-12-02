@@ -11,10 +11,12 @@
 		4F2088F72570BED30007C00C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2088F62570BED30007C00C /* SceneDelegate.swift */; };
 		4F2088F92570BED30007C00C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2088F82570BED30007C00C /* ViewController.swift */; };
 		4F2088FC2570BED30007C00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2088FA2570BED30007C00C /* Main.storyboard */; };
-		4F2088FE2570BED80007C00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F2088FD2570BED80007C00C /* Assets.xcassets */; };
 		4F2089012570BED80007C00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2088FF2570BED80007C00C /* LaunchScreen.storyboard */; };
 		4F20890C2570BED90007C00C /* viewDidLoadPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20890B2570BED90007C00C /* viewDidLoadPracticeTests.swift */; };
 		4F2089172570BED90007C00C /* viewDidLoadPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2089162570BED90007C00C /* viewDidLoadPracticeUITests.swift */; };
+		4F20892F2570C6690007C00C /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F20892D2570C6690007C00C /* MyParticle.sks */; };
+		4F2089302570C6690007C00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F20892E2570C6690007C00C /* Assets.xcassets */; };
+		4F2089352570F43F0007C00C /* NyanCat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4F2089342570F43E0007C00C /* NyanCat.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		4F2088F62570BED30007C00C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4F2088F82570BED30007C00C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F2088FB2570BED30007C00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4F2088FD2570BED80007C00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F2089002570BED80007C00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F2089022570BED80007C00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F2089072570BED90007C00C /* viewDidLoadPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewDidLoadPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,9 @@
 		4F2089122570BED90007C00C /* viewDidLoadPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewDidLoadPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2089162570BED90007C00C /* viewDidLoadPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewDidLoadPracticeUITests.swift; sourceTree = "<group>"; };
 		4F2089182570BED90007C00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F20892D2570C6690007C00C /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		4F20892E2570C6690007C00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F2089342570F43E0007C00C /* NyanCat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = NyanCat.mp3; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +103,13 @@
 		4F2088F32570BED30007C00C /* viewDidLoadPractice */ = {
 			isa = PBXGroup;
 			children = (
+				4F2089342570F43E0007C00C /* NyanCat.mp3 */,
 				4F2088F42570BED30007C00C /* AppDelegate.swift */,
 				4F2088F62570BED30007C00C /* SceneDelegate.swift */,
 				4F2088F82570BED30007C00C /* ViewController.swift */,
+				4F20892D2570C6690007C00C /* MyParticle.sks */,
+				4F20892E2570C6690007C00C /* Assets.xcassets */,
 				4F2088FA2570BED30007C00C /* Main.storyboard */,
-				4F2088FD2570BED80007C00C /* Assets.xcassets */,
 				4F2088FF2570BED80007C00C /* LaunchScreen.storyboard */,
 				4F2089022570BED80007C00C /* Info.plist */,
 			);
@@ -232,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F2089012570BED80007C00C /* LaunchScreen.storyboard in Resources */,
-				4F2088FE2570BED80007C00C /* Assets.xcassets in Resources */,
+				4F2089352570F43F0007C00C /* NyanCat.mp3 in Resources */,
+				4F20892F2570C6690007C00C /* MyParticle.sks in Resources */,
+				4F2089302570C6690007C00C /* Assets.xcassets in Resources */,
 				4F2088FC2570BED30007C00C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
